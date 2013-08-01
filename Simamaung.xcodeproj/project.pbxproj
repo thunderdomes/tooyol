@@ -16,6 +16,7 @@
 		D01BDD3D17AA1D76005396AF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D01BDD3C17AA1D76005396AF /* Default.png */; };
 		D01BDD3F17AA1D76005396AF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D01BDD3E17AA1D76005396AF /* Default@2x.png */; };
 		D01BDD4117AA1D76005396AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D01BDD4017AA1D76005396AF /* Default-568h@2x.png */; };
+		D01BDD4817AA1F5F005396AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D01BDD4717AA1F5F005396AF /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D01BDD3C17AA1D76005396AF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D01BDD3E17AA1D76005396AF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D01BDD4017AA1D76005396AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D01BDD4717AA1F5F005396AF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D01BDD1E17AA1D76005396AF = {
 			isa = PBXGroup;
 			children = (
+				D01BDD4717AA1F5F005396AF /* .gitignore */,
 				D01BDD3017AA1D76005396AF /* Simamaung */,
 				D01BDD2917AA1D76005396AF /* Frameworks */,
 				D01BDD2817AA1D76005396AF /* Products */,
@@ -155,6 +158,7 @@
 				D01BDD3D17AA1D76005396AF /* Default.png in Resources */,
 				D01BDD3F17AA1D76005396AF /* Default@2x.png in Resources */,
 				D01BDD4117AA1D76005396AF /* Default-568h@2x.png in Resources */,
+				D01BDD4817AA1F5F005396AF /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
