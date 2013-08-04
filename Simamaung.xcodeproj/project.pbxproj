@@ -28,6 +28,7 @@
 		D01BDD6617AA23E2005396AF /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BDD5D17AA23E2005396AF /* UIImageView+AFNetworking.m */; };
 		D01BDD6817AAAFDD005396AF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01BDD6717AAAFDD005396AF /* Security.framework */; };
 		D0ED98C017AE182200198DE3 /* NetraJsonClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED98BF17AE182200198DE3 /* NetraJsonClient.m */; };
+		D0ED98C317AE1FE100198DE3 /* JsonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED98C217AE1FE100198DE3 /* JsonObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		D01BDD6717AAAFDD005396AF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D0ED98BE17AE182200198DE3 /* NetraJsonClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetraJsonClient.h; sourceTree = "<group>"; };
 		D0ED98BF17AE182200198DE3 /* NetraJsonClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetraJsonClient.m; sourceTree = "<group>"; };
+		D0ED98C117AE1FE100198DE3 /* JsonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonObject.h; sourceTree = "<group>"; };
+		D0ED98C217AE1FE100198DE3 /* JsonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +189,8 @@
 		D0ED98BB17AE177A00198DE3 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				D0ED98C117AE1FE100198DE3 /* JsonObject.h */,
+				D0ED98C217AE1FE100198DE3 /* JsonObject.m */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				D01BDD6517AA23E2005396AF /* AFXMLRequestOperation.m in Sources */,
 				D01BDD6617AA23E2005396AF /* UIImageView+AFNetworking.m in Sources */,
 				D0ED98C017AE182200198DE3 /* NetraJsonClient.m in Sources */,
+				D0ED98C317AE1FE100198DE3 /* JsonObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
