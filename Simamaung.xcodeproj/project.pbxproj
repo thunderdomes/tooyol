@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D00B295B17B15DB90094AD3A /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00B295A17B15DB90094AD3A /* navbar@2x.png */; };
+		D00B296117B15FC80094AD3A /* newsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B296017B15FC80094AD3A /* newsCell.m */; };
+		D00B296417B15FD70094AD3A /* netra.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B296317B15FD70094AD3A /* netra.m */; };
 		D01BDD2B17AA1D76005396AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01BDD2A17AA1D76005396AF /* UIKit.framework */; };
 		D01BDD2D17AA1D76005396AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01BDD2C17AA1D76005396AF /* Foundation.framework */; };
 		D01BDD2F17AA1D76005396AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01BDD2E17AA1D76005396AF /* CoreGraphics.framework */; };
@@ -67,6 +69,10 @@
 
 /* Begin PBXFileReference section */
 		D00B295A17B15DB90094AD3A /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		D00B295F17B15FC80094AD3A /* newsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsCell.h; sourceTree = "<group>"; };
+		D00B296017B15FC80094AD3A /* newsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsCell.m; sourceTree = "<group>"; };
+		D00B296217B15FD70094AD3A /* netra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netra.h; sourceTree = "<group>"; };
+		D00B296317B15FD70094AD3A /* netra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netra.m; sourceTree = "<group>"; };
 		D01BDD2717AA1D76005396AF /* Simamaung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simamaung.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01BDD2A17AA1D76005396AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D01BDD2C17AA1D76005396AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -190,6 +196,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00B295C17B15FB20094AD3A /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D00B295D17B15FB20094AD3A /* cell */,
+				D00B295E17B15FB20094AD3A /* netra */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		D00B295D17B15FB20094AD3A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				D00B295F17B15FC80094AD3A /* newsCell.h */,
+				D00B296017B15FC80094AD3A /* newsCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		D00B295E17B15FB20094AD3A /* netra */ = {
+			isa = PBXGroup;
+			children = (
+				D00B296217B15FD70094AD3A /* netra.h */,
+				D00B296317B15FD70094AD3A /* netra.m */,
+			);
+			path = netra;
+			sourceTree = "<group>";
+		};
 		D01BDD1E17AA1D76005396AF = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +285,7 @@
 		D01BDD4917AA23E2005396AF /* library */ = {
 			isa = PBXGroup;
 			children = (
+				D00B295C17B15FB20094AD3A /* common */,
 				D0F48A9717B15285006D6999 /* Analytics */,
 				D0F48A9817B15285006D6999 /* socMed */,
 				D0F48A9917B15285006D6999 /* storage */,
@@ -621,6 +655,8 @@
 				D0F48B0117B15421006D6999 /* netraViewController.m in Sources */,
 				D0F48B0417B155A4006D6999 /* netraLeftViewController.m in Sources */,
 				D0F48B0817B155C5006D6999 /* netraRightViewController.m in Sources */,
+				D00B296117B15FC80094AD3A /* newsCell.m in Sources */,
+				D00B296417B15FD70094AD3A /* netra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
