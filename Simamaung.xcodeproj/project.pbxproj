@@ -60,6 +60,8 @@
 		D0F48AF917B152A0006D6999 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F48AF817B152A0006D6999 /* CoreData.framework */; };
 		D0F48AFB17B15334006D6999 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F48AFA17B15334006D6999 /* QuartzCore.framework */; };
 		D0F48B0117B15421006D6999 /* netraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F48B0017B15421006D6999 /* netraViewController.m */; };
+		D0F48B0417B155A4006D6999 /* netraLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F48B0317B155A4006D6999 /* netraLeftViewController.m */; };
+		D0F48B0817B155C5006D6999 /* netraRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F48B0717B155C5006D6999 /* netraRightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +165,10 @@
 		D0F48AFA17B15334006D6999 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D0F48AFF17B15421006D6999 /* netraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netraViewController.h; sourceTree = "<group>"; };
 		D0F48B0017B15421006D6999 /* netraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netraViewController.m; sourceTree = "<group>"; };
+		D0F48B0217B155A4006D6999 /* netraLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netraLeftViewController.h; sourceTree = "<group>"; };
+		D0F48B0317B155A4006D6999 /* netraLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netraLeftViewController.m; sourceTree = "<group>"; };
+		D0F48B0617B155C5006D6999 /* netraRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netraRightViewController.h; sourceTree = "<group>"; };
+		D0F48B0717B155C5006D6999 /* netraRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netraRightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,6 +305,7 @@
 		D0ED98BC17AE177A00198DE3 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				D0F48B0517B155B3006D6999 /* right */,
 				D0F48AFC17B15406006D6999 /* center */,
 				D0F48AFE17B15406006D6999 /* left */,
 			);
@@ -476,8 +483,19 @@
 		D0F48AFE17B15406006D6999 /* left */ = {
 			isa = PBXGroup;
 			children = (
+				D0F48B0217B155A4006D6999 /* netraLeftViewController.h */,
+				D0F48B0317B155A4006D6999 /* netraLeftViewController.m */,
 			);
 			path = left;
+			sourceTree = "<group>";
+		};
+		D0F48B0517B155B3006D6999 /* right */ = {
+			isa = PBXGroup;
+			children = (
+				D0F48B0617B155C5006D6999 /* netraRightViewController.h */,
+				D0F48B0717B155C5006D6999 /* netraRightViewController.m */,
+			);
+			path = right;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -589,6 +607,8 @@
 				D0F48AF617B15285006D6999 /* JASidePanelController.m in Sources */,
 				D0F48AF717B15285006D6999 /* UIViewController+JASidePanel.m in Sources */,
 				D0F48B0117B15421006D6999 /* netraViewController.m in Sources */,
+				D0F48B0417B155A4006D6999 /* netraLeftViewController.m in Sources */,
+				D0F48B0817B155C5006D6999 /* netraRightViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

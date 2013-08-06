@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "netraLeftViewController.h"
+#import "netraRightViewController.h"
+#import "netraViewController.h"
 @interface netraAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property(nonatomic,strong) netraLeftViewController *left;
+@property(nonatomic,strong) netraRightViewController *right;
+@property(nonatomic,strong) netraViewController *center;
+@property (strong, nonatomic) JASidePanelController *viewController;
 @end

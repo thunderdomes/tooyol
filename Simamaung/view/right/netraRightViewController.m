@@ -1,18 +1,18 @@
 //
-//  netraViewController.m
+//  netraRightViewController.m
 //  Simamaung
 //
 //  Created by Arie on 8/6/13.
 //  Copyright (c) 2013 netra. All rights reserved.
 //
 
-#import "netraViewController.h"
+#import "netraRightViewController.h"
 
-@interface netraViewController ()
+@interface netraRightViewController ()
 
 @end
 
-@implementation netraViewController
+@implementation netraRightViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

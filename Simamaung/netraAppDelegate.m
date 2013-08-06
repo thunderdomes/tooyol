@@ -9,15 +9,29 @@
 #import "netraAppDelegate.h"
 
 @implementation netraAppDelegate
-
+@synthesize center=_center;
+@synthesize left=_left;
+@synthesize right=_right;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	[MagicalRecord setupCoreDataStackWithStoreNamed:@"MyDatabase.sqlite"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _left=[[netraLeftViewController alloc]init];
+	_center=[[netraViewController alloc]init];
+	_right=[[netraRightViewController alloc]init];
+	
+	self.viewController = [[JASidePanelController alloc] init];
+	self.viewController.leftPanel = _left;
+	self.viewController.rightPanel = _right;
+	self.viewController.centerPanel = [[UINavigationController alloc] initWithRootViewController:_center];
+    self.viewController.shouldDelegateAutorotateToVisiblePanel = NO;
+	[[UINavigationBar appearance]setBackgroundImage:[UIImage imageNamed:@"navbar"] forBarMetrics:UIBarMetricsDefault];
+	self.window.rootViewController = self.viewController;
+	
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
