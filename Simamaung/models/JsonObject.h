@@ -17,7 +17,5 @@
 @property(nonatomic,strong) NSString *excerpt;
 @property(nonatomic,strong) NSString *thumbnail;
 @property(nonatomic,strong) NSString *date;
-
-
-
+-(id) initWithDictionary:(NSDictionary *) dictionary;
 @end

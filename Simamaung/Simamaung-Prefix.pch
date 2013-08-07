@@ -15,4 +15,5 @@
 #import "AFNetworking.h"
 #import "JASidePanelController.h"
 #import "UIViewController+JASidePanel.h"
+#import "NetraJsonClient.h"
 #endif

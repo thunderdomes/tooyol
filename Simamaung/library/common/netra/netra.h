@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface netra : NSObject
-
+#import "AFHTTPClient.h"
+@interface netra : AFHTTPClient
++ (id)sharedInstance;
 @end

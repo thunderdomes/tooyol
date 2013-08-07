@@ -27,10 +27,23 @@
     }
     return self;
 }
+-(void)fetcData{
+	NSLog(@"a");
+	[[NetraJsonClient sharedInstance] getPath:@"get_recent_post" parameters:nil
+									  success:^(AFHTTPRequestOperation *operation, id response) {
+										  NSLog(@"Response: %@", response);
+																			  }
+									  failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+										  NSLog(@"Error fetching beers!");
+										  NSLog(@"%@", error);
+									  }];
 
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	
+	[self fetcData];
 	// Do any additional setup after loading the view.
 }
 
