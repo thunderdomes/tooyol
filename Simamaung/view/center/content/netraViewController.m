@@ -20,6 +20,10 @@
     if (self) {
         // Custom initialization
 		self.view.backgroundColor=[UIColor whiteColor];
+		
+		//add uitableview
+		main=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, self.view.frame.size.height-44)];
+		[self.view addSubview:main];
     }
     return self;
 }

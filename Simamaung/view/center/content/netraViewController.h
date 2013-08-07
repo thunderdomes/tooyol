@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface netraViewController : UIViewController
-
+{
+	UITableView *main;
+}
 @end
