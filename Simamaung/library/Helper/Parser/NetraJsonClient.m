@@ -8,7 +8,7 @@
 
 #import "NetraJsonClient.h"
 #import "AFJSONRequestOperation.h"
-#define netraBaseUrl @"http://simamaung.com/api?"
+#define netraBaseUrl @"http://simamaung.com/api/"
 #define BeersAPIToken @"1234abcd"
 @implementation NetraJsonClient
 
@@ -30,6 +30,7 @@
     }
     if (self) {
 		[self setDefaultHeader:@"Accept" value:@"application/json"];
+		[self registerHTTPOperationClass:[AFJSONRequestOperation class]];
     }
     
     return self;
